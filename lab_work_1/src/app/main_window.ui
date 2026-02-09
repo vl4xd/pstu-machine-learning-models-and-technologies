@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>361</width>
-    <height>292</height>
+    <height>305</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -62,8 +62,11 @@
         <property name="text">
          <string>Влажность и Температура</string>
         </property>
-        <property name="checked">
+        <property name="checkable">
          <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
         </property>
         <property name="autoRepeat">
          <bool>false</bool>
@@ -114,7 +117,7 @@
            </font>
           </property>
           <property name="text">
-           <string>Влажность</string>
+           <string>Влажность (%)</string>
           </property>
          </widget>
         </item>
@@ -126,7 +129,7 @@
            </font>
           </property>
           <property name="text">
-           <string>Температура</string>
+           <string>Температура (°C)</string>
           </property>
          </widget>
         </item>
@@ -138,17 +141,20 @@
            </font>
           </property>
           <property name="text">
-           <string>Скорость ветра</string>
+           <string>Скорость ветра (км/ч)</string>
           </property>
          </widget>
         </item>
         <item row="2" column="1">
          <widget class="QDoubleSpinBox" name="doubleSpinBox">
           <property name="minimum">
-           <double>-300.000000000000000</double>
+           <double>0.000000000000000</double>
           </property>
           <property name="maximum">
-           <double>300.000000000000000</double>
+           <double>1.000000000000000</double>
+          </property>
+          <property name="singleStep">
+           <double>0.010000000000000</double>
           </property>
          </widget>
         </item>
@@ -171,7 +177,7 @@
            <number>2</number>
           </property>
           <property name="minimum">
-           <double>-300.000000000000000</double>
+           <double>0.000000000000000</double>
           </property>
           <property name="maximum">
            <double>300.000000000000000</double>
