@@ -1,1 +1,5 @@
 data
+resnet_18_fe
+resnet_18_ft
+SimpleCNN
+.venv
