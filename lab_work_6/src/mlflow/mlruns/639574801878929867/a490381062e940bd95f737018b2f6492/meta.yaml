@@ -1,0 +1,15 @@
+artifact_uri: file:C:/projects/pstu-machine-learning-models-and-technologies/lab_work_6/src/mlflow/mlartifacts/639574801878929867/a490381062e940bd95f737018b2f6492/artifacts
+deleted_time: 1778066928833
+end_time: 1778066877130
+entry_point_name: ''
+experiment_id: '639574801878929867'
+lifecycle_stage: deleted
+run_id: a490381062e940bd95f737018b2f6492
+run_name: LSTM
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778066855497
+status: 3
+tags: []
+user_id: mir-2

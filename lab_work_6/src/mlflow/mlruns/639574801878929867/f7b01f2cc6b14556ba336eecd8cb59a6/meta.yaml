@@ -1,0 +1,15 @@
+artifact_uri: file:C:/projects/pstu-machine-learning-models-and-technologies/lab_work_6/src/mlflow/mlartifacts/639574801878929867/f7b01f2cc6b14556ba336eecd8cb59a6/artifacts
+deleted_time: 1778066876268
+end_time: 1778061152154
+entry_point_name: ''
+experiment_id: '639574801878929867'
+lifecycle_stage: deleted
+run_id: f7b01f2cc6b14556ba336eecd8cb59a6
+run_name: Transformer
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778061115442
+status: 3
+tags: []
+user_id: mir-2
